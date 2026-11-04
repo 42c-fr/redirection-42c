@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>42c — redirection vers www.42c.fr</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://www.42c.fr/">
+<script>
+  // GitHub Pages sert ce fichier pour toute adresse inconnue : on renvoie vers la même adresse sur www.
+  location.replace('https://www.42c.fr' + location.pathname + location.search + location.hash);
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=https://www.42c.fr/"></noscript>
+</head>
+<body>
+<p>Le site de 42c est à l'adresse <a href="https://www.42c.fr/">www.42c.fr</a>.</p>
+</body>
+</html>
